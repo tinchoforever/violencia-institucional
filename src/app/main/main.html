@@ -12,13 +12,14 @@
             <li ng-click="selectFilter('nombre')"><a href="#">nombre</a></li>
             <li ng-click="selectFilter('genero')"><a href="#">genero</a></li>
             <li ng-click="selectFilter('fecha')"><a href="#">fecha</a></li>
-            <li ng-click="selectFilter('edad')"><a href="#">edad</a></li>
+            <li ng-click="selectFilter('localidad')"><a href="#">localidad</a></li>
           </ul>
         </div>
       </h3>
-      <tagger options="optionsData[options.filter]" tags="tags">
+      <tagger tags="tags" options="optionsData[options.filter]">
     </div>
-    <div class="col-md-12 results">
+
+    <div class="col-md-12 results" ng-if="tags.length > 0">
       <p>
         <span class="victimas">{{data.victimas}}</span>
         victimas con esos filtros
@@ -27,35 +28,14 @@
   </div>
   
   <div class="row results">
-      <div class="col-md-2 result-item">
-        <a href="#" style="background: transparent url(../resources/images/1.png) 0 0 no-repeat; background-size: cover;">
-        Lucas Muños
+      <div ng-class="resultClass" class="result-item" ng-if="listado.length == 0">
+        <a href="#" style="background: transparent url(../resources/images/empty.png) 0 0 no-repeat; background-size: cover;">
+        NO RESULTS
         </a>
       </div>
-      <div class="col-md-2 result-item">
-        <a href="#" style="background: transparent url(../resources/images/2.png) 0 0 no-repeat; background-size: cover;">
-        Lucas Muños
-        </a>
-      </div>
-      <div class="col-md-2 result-item">
-        <a href="#" style="background: transparent url(../resources/images/3.png) 0 0 no-repeat; background-size: cover;">
-        Lucas Muños
-        </a>
-      </div>
-      <div class="col-md-2 result-item">
-        <a href="#" style="background: transparent url(../resources/images/4.png) 0 0 no-repeat; background-size: cover;">
-        Lucas Muños
-        </a>
-        
-      </div>
-      <div class="col-md-2 result-item">
-        <a href="#" style="background: transparent url(../resources/images/2.png) 0 0 no-repeat; background-size: cover;">
-        Lucas Muños
-        </a>
-      </div>
-      <div class="col-md-2 result-item">
-        <a href="#" style="background: transparent url(../resources/images/1.png) 0 0 no-repeat; background-size: cover;">
-        Lucas Muños
+      <div ng-class="resultClass" class="result-item" ng-repeat="result in listado">
+        <a href="#" style="background: transparent url({{result.imagen}}) 0 0 no-repeat; background-size: cover;">
+        {{result.nombre}}, {{result.apellido}}
         </a>
       </div>
   </div>
