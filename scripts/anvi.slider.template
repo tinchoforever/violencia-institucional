@@ -1,0 +1,23 @@
+<div class="container">
+      <div class="main wow fadeIn" data-wow-duration="10s" data-wow-delay="0s">
+        <img src="images/luciano/01.jpg">
+        Hola soy {{ Madre }}, la madre de {{Nombre}}.
+      
+      </div>
+      <div class="main wow fadeIn" data-wow-duration="10s" data-wow-delay="10s">
+         <img src="images/luciano/02.jpg">
+         Mi hijo era {{Ocupacion}}
+         
+      </div>
+      <div class="main wow fadeIn" data-wow-duration="10s" data-wow-delay="20s">
+          <img src="images/luciano/03.jpg">
+          El 24 de agosto estaba yendo a la facultad, cuando fue asesinado por la policía.
+          
+      </div>
+      <div class="main wow fadeIn" data-wow-duration="10s" data-wow-delay="30s">
+        <img src="images/luciano/04.jpg">
+          Si estabas ahí cuando pasó, o sabés algo, podés ayudarnos a lograr que haya justicia para Pedro. (link a página para cargar información)
+      </div>
+      
+    </section>
+        </div>

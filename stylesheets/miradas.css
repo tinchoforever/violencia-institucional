@@ -1,0 +1,70 @@
+body{
+	background:#252527;
+	color:white;
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+.button.button-primary{
+	  background-color: #673ab7;
+  border-color: #673ab7; }
+}
+
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #F1F1F1;
+  background-color: #673ab7;
+  border-color: #673ab7; }
+
+
+.value-multiplier {
+    margin-bottom: .5rem;
+    color: #d60e13;
+}
+
+h3 img {
+	max-width: 80%;
+	padding: 1em;
+}
+img.logo{
+	width: 220px;
+}
+
+
+.button i.fa {
+    padding-left: 1em;
+}
+
+.social a{
+	color:white;
+	text-decoration: none;
+}
+
+.main.wow.fadeIn.animated{
+	position: absolute;
+	background: yellow;
+	color:blue;
+	top:0;
+}
+.main.wow.fadeIn.animated img{
+	max-width: 600px;
+	filter: grayscale(100%);
+}
+.main.wow.fadeIn{
+	position: inherit;
+	top:inherit;
+
+}
