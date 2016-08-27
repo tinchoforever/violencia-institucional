@@ -1,0 +1,84 @@
+body{
+	background: #60b7a1;
+	color:white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+.button.button-primary{
+	  background-color: #673ab7;
+  border-color: #673ab7; }
+}
+
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #F1F1F1;
+  background-color: #673ab7;
+  border-color: #673ab7; }
+
+
+.value-multiplier {
+    margin-bottom: .5rem;
+    color: #d60e13;
+}
+
+h3 img {
+	max-width: 80%;
+	padding: 1em;
+}
+img.logo{
+	width: 220px;
+}
+
+
+.button i.fa {
+    padding-left: 1em;
+}
+
+.social a{
+	color:white;
+	text-decoration: none;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background: #60b7a1;
+}
+
+.main.wow.fadeIn.animated{
+	position: absolute;
+	color:#fff;
+	top:0;
+}
+img{
+	max-width: 100%;
+	max-height: 60vh;
+  	-webkit-filter: hue-rotate(63deg);
+
+}
+.main.wow.fadeIn{
+	position: inherit;
+	top:inherit;
+
+}
+
+.main.wow.fadeIn h1{
+	position: absolute;
+	background: 
+	width: 100%;
+	bottom: 0;
+}

@@ -1,0 +1,39 @@
+<div class="container">
+   
+     
+       <div class="main wow fadeIn" data-wow-duration="10s" data-wow-delay="40s">
+        
+       <img src="{{FotoPost1}}">
+         <h1>Seguimos peleando contra la violencia instutucional.   </h1>
+         <h4> <strong> Leer el informe </strong> </h4>
+      </div>
+
+      <div class="main wow fadeIn" data-wow-duration="10s" data-wow-delay="30s">
+         <div class="wow fadeOut" data-wow-duration="300s" data-wow-delay="40s">
+        <img src="{{FotoPost1}}">
+          <h2>El estado de la causa de mi homicidio es {{estado}}. </h2>
+        </div>
+      </div>
+
+      <div class="main wow fadeIn" data-wow-duration="10s" data-wow-delay="20s">
+        <div class="wow fadeOut" data-wow-duration="300s" data-wow-delay="30s">
+          <img src="{{FotoPost2}}">
+         <h2>Pero el {{fecha}} iba a {{QueHaciaEnElMomentoQueDesaparecio}}, cuando me mató la {{responsables}} </h2>
+          </div>
+      </div>
+      <div class="main wow fadeIn" data-wow-duration="10s" data-wow-delay="10s">
+      <div class="wow fadeOut" data-wow-duration="300s" data-wow-delay="20s">
+         <img src="{{foto2}}">
+
+          <h2> Quería  {{ aspiracion }}  </h2>
+          </div>
+      </div>
+   <div class="main wow fadeIn" data-wow-duration="30s" data-wow-delay="0s">
+      <div class="wow fadeOut" data-wow-duration="300s" data-wow-delay="10s">
+         <img src="{{ foto1 }}">
+          <h2 class=""> Soy {{ Nombre }} </h2>
+          </div>
+      </div>
+
+    </section>
+        </div>
