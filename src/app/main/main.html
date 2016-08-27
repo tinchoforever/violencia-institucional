@@ -1,6 +1,9 @@
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12">
+  <header>
+    <h1>< Archivo / Memoria ></h1>
+  </header>
+  <div class="row top-search">
+    <div class="col-md-offset-1 col-md-10">
       <h3>
         Buscar por 
         <div class="ci-dropdown">
@@ -33,7 +36,7 @@
         NO RESULTS
         </a>
       </div>
-      <div ng-class="resultClass" class="result-item" ng-repeat="result in listado">
+      <div ng-class="resultClass" class="result-item {{result.active}}" ng-click="showActive(result);" ng-repeat="result in listadoFiltrado">
         <a href="#" style="background: transparent url({{result.imagen}}) 0 0 no-repeat; background-size: cover;">
         {{result.nombre}}, {{result.apellido}}
         </a>

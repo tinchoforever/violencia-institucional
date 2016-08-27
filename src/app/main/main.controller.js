@@ -17,14 +17,24 @@ angular
 
       $scope.tags = data;
 
-      console.log(data.length);
       if (data.length > 0) {
         $scope.resultClass = 'col-md-2';
+        $scope.listadoFiltrado = _.filter($scope.listado, function(o) {
+          o.active = '';
+          return o.localidad == 'Lomas de Zamora';
+        });
+      } else {
+        $scope.listadoFiltrado = $scope.listado;
+        $scope.resultClass = 'col-md-1';
       }
     });
 
+    $scope.showActive = function(data) {
+      angular.element('.result-active').removeClass('result-active');
+      data.active = 'result-active';
+    };
 
-    $scope.listado = [
+    $scope.listado = $scope.listadoFiltrado = [
       {
         nombre: 'Lucas',
         apellido: 'Muñoz',
@@ -32,7 +42,8 @@ angular
         fecha_des: '2016',
         genero: 'Masculino',
         accion_al_des: 'Rumbo a la comisaria donde trabajaba',
-        imagen: '../resources/images/1.png'
+        imagen: '../resources/images/1.png',
+        visible: 'col-md-1'
       },
       {
         nombre: 'Lautaro',
@@ -41,7 +52,8 @@ angular
         fecha_des: '2012',
         genero: 'Masculino',
         accion_al_des: 'Iba a bailar',
-        imagen: '../resources/images/2.png'
+        imagen: '../resources/images/2.png',
+        visible: 'col-md-1'
       },
       {
         nombre: 'Edgardo Jose',
@@ -50,7 +62,8 @@ angular
         fecha_des: '1994',
         genero: 'Masculino',
         accion_al_des: '',
-        imagen: '../resources/images/3.png'
+        imagen: '../resources/images/3.png',
+        visible: 'col-md-1'
       },
       {
         nombre: 'Norbeto Antonio',
@@ -59,7 +72,8 @@ angular
         fecha_des: '2004',
         genero: 'Masculino',
         accion_al_des: 'Rumbo a la comisaria donde trabajaba',
-        imagen: '../resources/images/4.png'
+        imagen: '../resources/images/4.png',
+        visible: 'col-md-1'
       },
       {
         nombre: 'Leonardo Adolfo',
@@ -68,7 +82,8 @@ angular
         fecha_des: '2015',
         genero: 'Masculino',
         accion_al_des: '',
-        imagen: '../resources/images/4.png'
+        imagen: '../resources/images/4.png',
+        visible: 'col-md-1'
       },
       {
         nombre: 'Sebastian',
@@ -77,7 +92,8 @@ angular
         fecha_des: '1997',
         genero: 'Masculino',
         accion_al_des: 'Una excursión de su viaje de egresados.',
-        imagen: '../resources/images/4.png'
+        imagen: '../resources/images/4.png',
+        visible: 'col-md-1'
       },
       {
         nombre: 'Norbeto Antonio',
@@ -86,7 +102,8 @@ angular
         fecha_des: '2004',
         genero: 'Masculino',
         accion_al_des: 'Rumbo a la comisaria donde trabajaba',
-        imagen: '../resources/images/4.png'
+        imagen: '../resources/images/4.png',
+        visible: 'col-md-1'
       }
     ];
 
