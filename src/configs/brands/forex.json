@@ -1,0 +1,20 @@
+{
+  "loadingBar": true,
+  "skin": { "color": "0x246FA2", "bgColor": "0xEEEDED", "loadingBarColor": "0x246FA2", "loadingBarBorderColor": "0xDCD9D9" },
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": "resources/logos/Forex.png",
+  "pageTitle": "FOREX.com",
+  "favicon": "resources/icons/frx-favicon.ico",
+  "css": "css/compiledstylew.css",
+  "defaultTheme": "light",
+  "forgottenCode": "forex-light",
+  "brandName": "Forex",
+  "needsOperator": false,
+  "appKey": "IFE-Fox",
+  "optimizelyKey": "5733112224",
+  "hideLangDropdown": true,
+  "urlGroup": "forex",
+  "supportsIE8": true,
+  "allowForcePassword": true
+}

@@ -1,0 +1,23 @@
+{
+  "flexITP": {
+    "flexCharts": {
+      "flexChartsURL": "https://trade.loginandtrade.com/tp/charts",
+      "ratesUrl": "push.cityindex.com",
+      "ratesUrlControlPort": "443",
+      "ratesUrlPort": "443",
+      "historicUrl": "https://ciapi.cityindex.com/TradingAPI/",
+      "marketSearchUrl": "https://ciapi.cityindex.com/TradingAPI/"
+    },
+    "tradingApiURL": "https://ciapi.cityindex.com/TradingAPI/",
+    "forgotPasswordURL": "https://trade.loginandtrade.com/forgottenpassword/forgottenpassword.aspx",
+    "vsClientProxy": "https://ciapi.cityindex.com/ClientDocumentsProxy/ClientProxy",
+    "viewStWebApp": "https://trade.loginandtrade.com/flashASP/host/progs/ViewStatement/ViewStatement",
+    "onlineFundinghtm": "OnlineFundingView/transferfunds",
+    "onlineFundingWebApp": "https://trade.loginandtrade.com/onlineFundingPCI",
+    "lsc": {
+      "serverURL": "push.cityindex.com",
+      "controlPort": "443",
+      "port": "443"
+    }
+  }
+}

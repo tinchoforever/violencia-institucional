@@ -1,0 +1,143 @@
+{
+  "default": {
+    "default": "https://trade-ppe.loginandtrade.com/advantagelite/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://localhost:3000/"
+  },
+  "cityindexlite": {
+    "default": "https://trade-ppe.loginandtrade.com/advantagelite/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-ppe.loginandtrade.com/cityindexlite/"
+  },
+  "cityindex": {
+    "default": "https://ciapipreprod.cityindextest9.co.uk/AdvantageWeb/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-ppe.loginandtrade.com/cityindex/"
+  },
+  "barclayslite": {
+    "default": "https://trade-ppe.loginandtrade.com/advantagelite/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://ciapipreprod.cityindextest9.co.uk/web/barclayslite/"
+  },
+  "barclays": {
+    "default": "https://ciapipreprod.cityindextest9.co.uk/tp/fx/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-ppe.loginandtrade.com/barclays/"
+  },
+  "finspreads": {
+    "default": "https://trade-ppe.loginandtrade.com/finspreads/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-ppe.loginandtrade.com/finspreads/"
+  },
+  "finspreadslite": {
+    "default": "https://trade-ppe.loginandtrade.com/advantagelite/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://ciapipreprod.cityindextest9.co.uk/web/finspreadslite/"
+  },
+  "ifxmarketslite": {
+    "default": "https://trade-ppe.loginandtrade.com/ifxmarketslite/web/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-ppe.loginandtrade.com/ifxmarketslite/"
+  },
+  "ifxmarkets": {
+    "default": "https://trade-ppe.loginandtrade.com/ifxmarkets/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-ppe.loginandtrade.com/ifxmarkets/"
+  },
+  "margintraderlite": {
+    "default": "https://trade-ppe.loginandtrade.com/advantagelite/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://ciapipreprod.cityindextest9.co.uk/web/margintraderlite/"
+  },
+  "margintrader": {
+    "default": "https://ciapipreprod.cityindextest9.co.uk/advantageweb/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://ciapipreprod.cityindextest9.co.uk/web/margintrader/"
+  },
+  "login": {
+    "default": "https://trade-ppe.loginandtrade.com/tp/fx/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-ppe.loginandtrade.com/login/"
+  },
+  "loginlite": {
+    "default": "https://trade-ppe.loginandtrade.com/advantagelite/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-ppe.loginandtrade.com/loginlite/"
+  },
+  "loginw": {
+    "default": "https://trade-ppe.loginandtrade.com/tp/fx/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-ppe.loginandtrade.com/loginw/"
+  },
+  "loginwlite": {
+    "default": "https://trade-ppe.loginandtrade.com/advantagelite/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-ppe.loginandtrade.com/loginwlite/"
+  },
+  "gtx": {
+    "default": "https://gtx-ppe.loginandtrade.com/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://gtx-ppe.loginandtrade.com/login/"
+  },
+  "ii": {
+    "default": "https://ii-ppe.loginandtrade.com/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://ii-ppe.loginandtrade.com/"
+  },
+  "shareprice": {
+    "default": "https://shareprice-ppe.loginandtrade.com/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://shareprice-ppe.loginandtrade.com/"
+  },
+  "fxflat": {
+    "default": "https://fxflat-ppe.loginandtrade.com/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://fxflat-ppe.loginandtrade.com/"
+  },
+  "tradeking": {
+    "default": "https://trade-ppe.loginandtrade.com/tradeking/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-ppe.loginandtrade.com/tradeking/"
+  },
+  "whs": {
+    "default": "https://trade-ppe.loginandtrade.com/whs/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-ppe.loginandtrade.com/whs/"
+  },
+  "forex": {
+    "default": "https://forex-ppe.loginandtrade.com/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://forex-ppe.loginandtrade.com/"
+  },
+  "tradefair": {
+    "default": "https://tradefair-ppe.loginandtrade.com/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "reloadURL": "https://tradefair-ppe.loginandtrade.com/"
+  },
+  "recognia": {
+    "default": "https://site.recognia.com/cityindex/serve.shtml?page=index&usi={{userName}}&aci={{time}}&lang={{language}}&aoi={{accountOperator}}",
+    "reloadURL": "https://trade-ppe.loginandtrade.com/recognia/"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "loadingBar": true,
+  "skin": { "color": "0x246FA2", "bgColor": "0xEEEDED", "loadingBarColor": "0x246FA2", "loadingBarBorderColor": "0xDCD9D9" },
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": "resources/logos/FXFlat.png",
+  "pageTitle": "FXFlat",
+  "favicon": "resources/icons/fxflat-favicon.ico",
+  "css": "css/compiledstylew.css",
+  "defaultTheme": "light",
+  "forgottenCode": "fx-light",
+  "brandName": "FXFlat",
+  "needsOperator": false,
+  "appKey": "IFE-FXFlat",
+  "optimizelyKey": "5761253153",
+  "hideLangDropdown": true,
+  "urlGroup": "fxflat",
+  "supportsIE8": true,
+  "allowForcePassword": true,
+  "hideForgotPwd": false
+}

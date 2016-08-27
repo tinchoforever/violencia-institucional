@@ -1,0 +1,21 @@
+{
+  "loadingBar": true,
+  "skin": { "color": "0x246FA2", "bgColor": "0xEEEDED", "loadingBarColor": "0x246FA2", "loadingBarBorderColor": "0xDCD9D9" },
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": "resources/logos/InteractiveMarkets.png",
+  "pageTitle": "Interactive Markets",
+  "favicon": "resources/icons/ii-favicon.ico",
+  "css": "css/compiledstylew.css",
+  "defaultTheme": "light",
+  "forgottenCode": "ii-light",
+  "brandName": "Interactive Investor",
+  "needsOperator": false,
+  "appKey": "IFE-II",
+  "optimizelyKey": "5761253153",
+  "hideLangDropdown": true,
+  "urlGroup": "ii",
+  "supportsIE8": true,
+  "allowForcePassword": true,
+  "hideForgotPwd": false
+}

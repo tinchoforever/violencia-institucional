@@ -1,0 +1,21 @@
+{
+  "loadingBar": true,
+  "skin": { "color": "0x246FA2", "bgColor": "0xEEEDED", "loadingBarColor": "0x246FA2", "loadingBarBorderColor": "0xDCD9D9" },
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": "resources/logos/SharePrice.png",
+  "pageTitle": "SharePrice",
+  "favicon": "resources/icons/sp-favicon.ico",
+  "css": "css/compiledstylew.css",
+  "defaultTheme": "light",
+  "forgottenCode": "sp-light",
+  "brandName": "SharePrice",
+  "needsOperator": false,
+  "appKey": "IFE-SP",
+  "optimizelyKey": "5761253153",
+  "hideLangDropdown": true,
+  "urlGroup": "shareprice",
+  "supportsIE8": true,
+  "allowForcePassword": true,
+  "hideForgotPwd": false
+}

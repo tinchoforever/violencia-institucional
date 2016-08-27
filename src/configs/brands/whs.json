@@ -1,0 +1,21 @@
+{
+  "loadingBar": true,
+  "skin": { "color": "0x246FA2", "bgColor": "0xEEEDED", "loadingBarColor": "0x246FA2", "loadingBarBorderColor": "0xDCD9D9" },
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": "resources/logos/WHS.png",
+  "pageTitle": "WHS",
+  "favicon": "resources/icons/whs-favicon.ico",
+  "css": "css/compiledstylew.css",
+  "defaultTheme": "whs",
+  "forgottenCode": "",
+  "brandName": "WHS",
+  "needsOperator": false,
+  "optimizelyKey": "0",
+  "appKey": "IFE-WHS",
+  "hideLangDropdown": true,
+  "urlGroup": "whs",
+  "supportsIE8": true,
+  "allowForcePassword": true,
+  "hideForgotPwd": true
+}

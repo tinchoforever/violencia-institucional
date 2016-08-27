@@ -1,0 +1,20 @@
+{
+  "loadingBar": true,
+  "skin": null,
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": "resources/logos/margintraderlogo.png",
+  "pageTitle": "Margin Trader",
+  "favicon": "resources/icons/mt-favicon.ico",
+  "css": "css/compiledstylew.css",
+  "defaultTheme": "light",
+  "forgottenCode": "fs-light",
+  "name": "City Index Ltd FX",
+  "optimizelyKey": "5761253153",
+  "appKey": "LITE-MT",
+  "hideLangDropdown": true,
+  "urlGroup": "margintraderlite",
+  "supportsIE8": false,
+  "allowForcePassword": true,
+  "hideForgotPwd": false
+}

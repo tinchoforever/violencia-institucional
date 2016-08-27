@@ -1,0 +1,21 @@
+{
+  "loadingBar": true,
+  "skin": null,
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": "resources/logos/GTX_Advantage_Lite.png",
+  "pageTitle": "GTX",
+  "favicon": "resources/icons/gtx-favicon.ico",
+  "css": "css/compiledstylew.css",
+  "defaultTheme": "light",
+  "forgottenCode": "gtx-light",
+  "brandName": "GTX",
+  "needsOperator": false,
+  "optimizelyKey": "5761253153",
+  "appKey": "LITE-GTX",
+  "hideLangDropdown": true,
+  "urlGroup": "gtx",
+  "supportsIE8": false,
+  "allowForcePassword": true,
+  "hideForgotPwd": false
+}

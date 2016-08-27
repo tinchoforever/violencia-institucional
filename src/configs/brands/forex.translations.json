@@ -1,0 +1,32 @@
+{
+  "en": {
+    "lgn_username": "Username",
+    "lgn_login": "LOGIN"
+  },
+  
+  "de": {
+    "lgn_username": "Nutzername",
+    "lgn_login": "ANMELDUNG"
+  },
+  
+  "pl": {
+    "lgn_username": "Nazwa użytkownika",
+    "lgn_login": "ZALOGUJ"
+  },
+  
+  "zh": {
+    "lgn_username": "用户名"
+  },
+  
+  "ar": {
+    "lgn_username": "إسم المستخدم"
+  },
+  
+  "ja": {
+    "lgn_username": "ログインID"
+  },
+  
+  "ru": {
+    "lgn_username": "Логин / № счета"
+  }
+}

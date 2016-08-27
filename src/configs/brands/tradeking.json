@@ -1,0 +1,21 @@
+{
+  "loadingBar": true,
+  "skin": { "color": "0x246FA2", "bgColor": "0xEEEDED", "loadingBarColor": "0x246FA2", "loadingBarBorderColor": "0xDCD9D9" },
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": "resources/logos/TradeKing.png",
+  "pageTitle": "TradeKing",
+  "favicon": "resources/icons/tradeking-favicon.ico",
+  "css": "css/compiledstylew.css",
+  "defaultTheme": "tradeking",
+  "forgottenCode": "tradeking-light",
+  "brandName": "TradeKing",
+  "needsOperator": false,
+  "appKey": "IFE-TK",
+  "optimizelyKey": "0",
+  "hideLangDropdown": true,
+  "urlGroup": "tradeking",
+  "supportsIE8": true,
+  "allowForcePassword": true,
+  "hideForgotPwd": false
+}

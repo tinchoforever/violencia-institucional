@@ -1,0 +1,21 @@
+{
+  "loadingBar": true,
+  "skin": null,
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": "resources/logos/CI_Advantage_Lite.png",
+  "pageTitle": "Login",
+  "favicon": "",
+  "css": "css/compiledstyle.css",
+  "defaultTheme": "dark",
+  "forgottenCode": "ci-dark",
+  "brandName": "default",
+  "needsOperator": false,
+  "appKey": "IFE",
+  "optimizelyKey": "5761253153",
+  "hideLangDropdown": true,
+  "urlGroup": "cityindexlite",
+  "supportsIE8": false,
+  "allowForcePassword": true,
+  "hideForgotPwd": false
+}

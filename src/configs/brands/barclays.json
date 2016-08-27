@@ -1,0 +1,21 @@
+{
+  "loadingBar": true,
+  "skin": { "color": "0x246FA2", "bgColor": "0xEEEDED", "loadingBarColor": "0x246FA2", "loadingBarBorderColor": "0xDCD9D9" },
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": "resources/logos/Barclays_Advantage_Lite.png",
+  "pageTitle": "Barclays CFDs and Financial Spread Trading",
+  "favicon": "resources/icons/bc-favicon.ico",
+  "css": "css/compiledstylew.css",
+  "defaultTheme": "light",
+  "forgottenCode": "barc-light",
+  "brandName": "Barclays",
+  "needsOperator": false,
+  "appKey": "IFE-BRC",
+  "optimizelyKey": "5761253153",
+  "hideLangDropdown": true,
+  "urlGroup": "barclays",
+  "supportsIE8": true,
+  "allowForcePassword": true,
+  "hideForgotPwd": false
+}

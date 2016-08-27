@@ -1,0 +1,22 @@
+{
+  "loadingBar": true,
+  "skin": null,
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": null,
+  "pageTitle": "Login",
+  "appTitle": "Trader",
+  "favicon": "resources/icons/blankICO.ico",
+  "css": "css/compiledstyle.css",
+  "defaultTheme": "dark",
+  "forgottenCode": "ci-dark",
+  "brandName": null ,
+  "needsOperator": false,
+  "appKey": "IFE",
+  "optimizelyKey": "5761253153",
+  "hideLangDropdown": true,
+  "urlGroup": "login",
+  "supportsIE8": true,
+  "allowForcePassword": true,
+  "hideForgotPwd": false
+}

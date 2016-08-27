@@ -1,0 +1,23 @@
+{
+  "flexITP": {
+    "flexCharts": {
+      "flexChartsURL": "https://trade.loginandtrade.com/tp/charts",
+      "ratesUrl": "pushpreprod.cityindextest9.co.uk",
+      "ratesUrlControlPort": "443",
+      "ratesUrlPort": "443",
+      "historicUrl": "https://ciapipreprod.cityindextest9.co.uk/tradingapi/",
+      "marketSearchUrl": "https://ciapipreprod.cityindextest9.co.uk/tradingapi/"
+    },
+    "tradingApiURL": "https://ciapipreprod.cityindextest9.co.uk/tradingapi/",
+    "forgotPasswordURL": "https://qappitp.cityindex.co.uk/forgottenpassword/forgottenpassword.aspx",
+    "vsClientProxy": "https://ciapipreprod.cityindextest9.co.uk/ClientDocumentsProxy/ClientProxy",
+    "viewStWebApp": "http://pkh-ppe-web01/flashASP/host/progs/ViewStatement/ViewStatement",
+    "onlineFundinghtm": "OnlineFundingView/transferfunds",
+    "onlineFundingWebApp": "https://qappitp.cityindex.co.uk/onlineFundingPCI",
+    "lsc": {
+      "serverURL": "pushpreprod.cityindextest9.co.uk",
+      "controlPort": "443",
+      "port": "443"
+    }
+  }
+}

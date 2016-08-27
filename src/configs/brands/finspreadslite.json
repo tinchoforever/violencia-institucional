@@ -1,0 +1,21 @@
+{
+  "loadingBar": true,
+  "skin": null,
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": "resources/logos/Finspreads_Advantage_Lite.png",
+  "pageTitle": "Finspreads",
+  "favicon": "resources/icons/fs-favicon.ico",
+  "css": "css/compiledstylew.css",
+  "defaultTheme": "light",
+  "forgottenCode": "fs-light",
+  "brandName": "Finspreads",
+  "needsOperator": false,
+  "optimizelyKey": "5733950189",
+  "appKey": "LITE-FS",
+  "hideLangDropdown": true,
+  "urlGroup": "finspreadslite",
+  "supportsIE8": false,
+  "allowForcePassword": true,
+  "hideForgotPwd": false
+}

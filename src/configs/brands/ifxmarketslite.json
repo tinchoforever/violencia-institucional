@@ -1,0 +1,21 @@
+{
+  "loadingBar": true,
+  "skin": null,
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": "resources/logos/IFXMarkets.png",
+  "pageTitle": "IFX Markets",
+  "favicon": "resources/icons/ifx-favicon.ico",
+  "css": "css/compiledstylew.css",
+  "defaultTheme": "light",
+  "forgottenCode": "ifxmc-light",
+  "brandName": "IFX",
+  "needsOperator": false,
+  "optimizelyKey": "5761253153",
+  "appKey": "LITE-IFXMC",
+  "hideLangDropdown": true,
+  "urlGroup": "ifxmarketslite",
+  "supportsIE8": false,
+  "allowForcePassword": true,
+  "hideForgotPwd": false
+}

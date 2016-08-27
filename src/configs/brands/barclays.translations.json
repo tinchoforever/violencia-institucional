@@ -1,0 +1,32 @@
+{
+  "en": {
+    "lgn_username": "Account Number",
+    "lgn_login": "LOGIN"
+  },
+  
+  "de": {
+    "lgn_username": "Kontonummer",
+    "lgn_login": "ANMELDUNG"
+  },
+  
+  "pl": {
+    "lgn_username": "Numer rachunku",
+    "lgn_login": "ZALOGUJ"
+  },
+  
+  "zh": {
+    "lgn_username": "账号"
+  },
+  
+  "ar": {
+    "lgn_username": "قم الحساب "
+  },
+  
+  "ja": {
+    "lgn_username": "口座番号"
+  },
+  
+  "ru": {
+    "lgn_username": "Номер счета"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "default": {
+    "default": "https://advantagelite-qat.cityindex.com/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://localhost:3000/"
+  },
+  "cityindexlite": {
+    "default": "https://advantagelite-qat.cityindex.com/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-qat.loginandtrade.com/cityindexlite/"
+  },
+  "cityindex": {
+    "default": "https://ciapiqat.cityindextest9.co.uk/advantageweb/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-qat.loginandtrade.com/cityindex/"
+  },
+  "barclayslite": {
+    "default": "https://advantagelite-qat.cityindex.com/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://ciapiqat.cityindextest9.co.uk/web/barclayslite/"
+  },
+  "barclays": {
+    "default": "https://ciapiqat.cityindextest9.co.uk/tp/fx/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-qat.loginandtrade.com/barclays/"
+  },
+  "finspreads": {
+    "default": "https://trade-qat.loginandtrade.com/finspreads/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-qat.loginandtrade.com/finspreads/"
+  },
+  "finspreadslite": {
+    "default": "https://advantagelite-qat.cityindex.com/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://ciapiqat.cityindextest9.co.uk/web/finspreadslite/"
+  },
+  "ifxmarketslite": {
+    "default": "https://trade-qat.loginandtrade.com/ifxmarketslite/web/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-qat.loginandtrade.com/ifxmarketslite/"
+  },
+  "ifxmarkets": {
+    "default": "https://trade-qat.loginandtrade.com/ifxmarkets/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-qat.loginandtrade.com/ifxmarkets/"
+  },
+  "margintraderlite": {
+    "default": "https://advantagelite-qat.cityindex.com/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://ciapiqat.cityindextest9.co.uk/web/margintraderlite/"
+  },
+  "margintrader": {
+    "default": "https://ciapiqat.cityindextest9.co.uk/advantageweb/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://ciapiqat.cityindextest9.co.uk/web/margintrader/"
+  },
+  "login": {
+    "default": "https://trade-qat.loginandtrade.com/tp/fx/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-qat.loginandtrade.com/login/"
+  },
+  "loginlite": {
+    "default": "https://advantagelite-qat.cityindex.com/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-qat.loginandtrade.com/loginlite/"
+  },
+  "loginw": {
+    "default": "https://trade-qat.loginandtrade.com/tp/fx/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-qat.loginandtrade.com/loginw/"
+  },
+  "loginwlite": {
+    "default": "https://advantagelite-qat.cityindex.com/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-qat.loginandtrade.com/loginwlite/"
+  },
+  "gtx": {
+    "default": "https://gtx-qat.loginandtrade.com/?SN={{sessionId}}&UN={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://gtx-qat.loginandtrade.com/login/"
+  },
+  "ii": {
+    "default": "https://ii-qat.loginandtrade.com/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://ii-qat.loginandtrade.com/"
+  },
+  "shareprice": {
+    "default": "https://shareprice-qat.loginandtrade.com/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://shareprice-qat.loginandtrade.com/"
+  },
+  "fxflat": {
+    "default": "https://fxflat-qat.loginandtrade.com/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://fxflat-qat.loginandtrade.com/"
+  },
+  "tradeking": {
+    "default": "https://trade-qat.loginandtrade.com/tradeking/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-qat.loginandtrade.com/tradeking/"
+  },
+  "whs": {
+    "default": "https://trade-qat.loginandtrade.com/whs/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapipreprod.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapipreprod.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://trade-qat.loginandtrade.com/whs/"
+  },
+  "forex": {
+    "default": "https://forex-qat.loginandtrade.com/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "charts": "https://ciapiqat.cityindextest9.co.uk/chartslite/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&UN={{userName}}{{incomingParams}}",
+    "reloadURL": "https://forex-qat.loginandtrade.com/"
+  },
+  "tradefair": {
+    "default": "https://tradefair-qat.loginandtrade.com/web/?Session={{sessionId}}&UserName={{userName}}&AuthenticationUri={{AuthenticationUri}}&TH={{theme}}&title={{title}}&favicon={{favicon}}",
+    "settings": "https://ciapiqat.cityindextest9.co.uk/settings/#/?TA={{userName}}&SN={{sessionId}}&CUID={{cultureId}}&TH={{theme}}&UN={{userName}}&showMenu={{showMenu}}&page={{page}}",
+    "reloadURL": "https://tradefair-qat.loginandtrade.com/"
+  },
+  "recognia": {
+    "default": "https://site.recognia.com/cityindex/serve.shtml?page=index&usi={{userName}}&aci={{time}}&lang={{language}}&aoi={{accountOperator}}",
+    "reloadURL": "https://trade-qat.loginandtrade.com/recognia/"
+  }
+}

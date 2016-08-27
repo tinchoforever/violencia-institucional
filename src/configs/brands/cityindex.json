@@ -1,0 +1,22 @@
+{
+  "loadingBar": true,
+  "skin": null,
+  "lgn_footer": "",
+  "shell_login_welcome": "",
+  "logo": "resources/logos/CI_Advantage_Lite.png",
+  "pageTitle": "City Index Ltd",
+  "favicon": "resources/icons/ci-favicon.ico",
+  "css": "css/compiledstyle.css",
+  "defaultTheme": "dark",
+  "forgottenCode": "ci-dark",
+  "brandName": "City Index Ltd" ,
+  "needsOperator": false,
+  "appKey": "IFE",
+  "optimizelyKey": "5705661819",
+  "hideLangDropdown": true,
+  "redirectGroup": "cityindex",
+  "urlGroup": "cityindex",
+  "supportsIE8": true,
+  "allowForcePassword": true,
+  "hideForgotPwd": false
+}
