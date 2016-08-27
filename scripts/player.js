@@ -19,7 +19,7 @@
      
       var request = new XMLHttpRequest();
       request.addEventListener('load', monsterLoaded);
-      request.open('GET', '/dataset/casos.json');
+      request.open('GET', 'dataset/casos.json');
       request.send();
        function monsterLoaded() {
         // Compile the fetched template.
@@ -37,7 +37,7 @@
       function setTemplate(caso){
            var req = new XMLHttpRequest();
         req.addEventListener('load', treeLoaded);
-        req.open('GET', '/scripts/anvi.slider.template');
+        req.open('GET', 'scripts/anvi.slider.template');
         req.send();
        function treeLoaded(dataLoaded) {
           // Compile the fetched template.
