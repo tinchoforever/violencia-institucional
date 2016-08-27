@@ -1,10 +1,90 @@
-header {
-  background-color: #333;
-  a {
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #fff;
+  font-size: 18px;
+  .ci-dropdown {
+    display: inline-block;
+    background: transparent;
+
+    button {
       color: #fff;
+      background: transparent;
+      border: 1px solid #269d80;
+      &:hover, &.dropdown-toggle.btn-default, &.dropdown-toggle.btn-default:hover {
+        background: transparent !important;
+        border-color: #269d80 !important;
+        color: #fff !important;
+      }
+      .caret {
+        color: #269d80;
+      }
+    }
+
+    ul {
+      background: rgba(0, 0, 0, .8);
+      border: 1px solid #269d80;
+      top: initial;
+      left: initial;
+      li {
+        a {
+          color: #fff;
+        }
+        &:hover {
+          background: transparent !important;
+        }
+      }
+    }
   }
 }
 
-.institucion-header a {
-  color: #fff;
+.results {
+  margin: 20px 0;
+  p {
+    color: #269d80;
+    font-size: 16px;
+  }
+}
+
+.container-fluid {
+  .angular-tagger {
+    border: none;
+    border-bottom: 2px solid #269d80;
+    color: #fff;
+    font-size: 26px;
+    width: 100%;
+  }
+
+  .angular-tagger__matching {
+    background: transparent;
+    border: 1px solid #269d80;
+    margin-top: 5px;
+  }
+
+  .angular-tagger__matching-item {
+    background: rgba(0,0,0,.8);
+  }
+  
+  .angular-tagger__tag {
+    background: rgba(0,0,0,.8);
+    border-bottom: 1px solid #269d80;
+    margin: 5px;
+  }
+}
+
+.results {
+  .result-item {
+    height: 200px;
+    padding: 0;
+    a {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      text-indent: -9999px;
+    }
+  }
 }

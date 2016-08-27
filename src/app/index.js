@@ -13,7 +13,8 @@
       'ngResource',
       'ui.router',
       'ui.bootstrap',
-      'ng.shims.placeholder'
+      'ng.shims.placeholder',
+      'tagger'
     ])
     .run(function ($rootScope) {
            $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {

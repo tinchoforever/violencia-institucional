@@ -1,21 +1,62 @@
-<header class="navbar navbar-static-top institucion-header" id="top" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span> 
-        <span class="icon-bar"></span> 
-        <span class="icon-bar"></span> 
-        <span class="icon-bar"></span>
-      </button> 
-      <a href="#" class="navbar-brand">
-        <strong>Violencia</strong> Institucional 
-      </a>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <h3>
+        Buscar por 
+        <div class="ci-dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" ng-click="dropdownToggle();" id="dropdownMenu1" aria-haspopup="true" aria-expanded="true">
+            {{options.filter}}
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li ng-click="selectFilter('nombre')"><a href="#">nombre</a></li>
+            <li ng-click="selectFilter('genero')"><a href="#">genero</a></li>
+            <li ng-click="selectFilter('fecha')"><a href="#">fecha</a></li>
+            <li ng-click="selectFilter('edad')"><a href="#">edad</a></li>
+          </ul>
+        </div>
+      </h3>
+      <tagger options="optionsData[options.filter]" tags="tags">
     </div>
-    <nav id="bs-navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="../getting-started/">Acerca de</a></li>
-        <li><a href="../getting-started/">Ingresar</a></li>
-      </ul>
-    </nav>
+    <div class="col-md-12 results">
+      <p>
+        <span class="victimas">{{data.victimas}}</span>
+        victimas con esos filtros
+      </p>
+    </div>
   </div>
-</header>
+  
+  <div class="row results">
+      <div class="col-md-2 result-item">
+        <a href="#" style="background: transparent url(../resources/images/1.png) 0 0 no-repeat; background-size: cover;">
+        Lucas Muños
+        </a>
+      </div>
+      <div class="col-md-2 result-item">
+        <a href="#" style="background: transparent url(../resources/images/2.png) 0 0 no-repeat; background-size: cover;">
+        Lucas Muños
+        </a>
+      </div>
+      <div class="col-md-2 result-item">
+        <a href="#" style="background: transparent url(../resources/images/3.png) 0 0 no-repeat; background-size: cover;">
+        Lucas Muños
+        </a>
+      </div>
+      <div class="col-md-2 result-item">
+        <a href="#" style="background: transparent url(../resources/images/4.png) 0 0 no-repeat; background-size: cover;">
+        Lucas Muños
+        </a>
+      </div>
+      <div class="col-md-2 result-item">
+        <a href="#" style="background: transparent url(../resources/images/2.png) 0 0 no-repeat; background-size: cover;">
+        Lucas Muños
+        </a>
+      </div>
+      <div class="col-md-2 result-item">
+        <a href="#" style="background: transparent url(../resources/images/1.png) 0 0 no-repeat; background-size: cover;">
+        Lucas Muños
+        </a>
+      </div>
+  </div>
+  
+</div>
